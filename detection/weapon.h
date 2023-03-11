@@ -1,20 +1,17 @@
 #include <iostream>
 #include <opencv2/opencv.hpp>
 
-using namespace std;
-using namespace cv;
-
 class Weapon
 {
     public:
         double threshold;
-        string name;
-        Mat templateImage;
+        std::string name;
+        cv::Mat templateImage;
 
-        Weapon(string name, Mat templateImage);
+        Weapon(std::string name, cv::Mat templateImage);
 
-        Mat getTemplateImage();
-        string getName();
+        cv::Mat getTemplateImage();
+        std::string getName();
         double getThreshold();
         void setThreshold(double threshold);
 };

@@ -1,5 +1,7 @@
 #include "weapon.h"
 
+using namespace std;
+using namespace cv;
 
         Weapon::Weapon(string name, Mat templateImage)
         {
