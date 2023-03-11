@@ -1,6 +1,6 @@
-# Kill Feed Weapon Detection
+# Kill Feed Weapon Detection in CS:GO
 This program detects weapons in a series of images, using a collection of templates. It uses the jsoncpp library to output the detected events in JSON format.
-![alt text](https://github.com/[simonmark1998]/[detection]/blob/[master]/res.png?raw=true)
+![alt text](https://github.com/simonmark1998/detection/blob/master/detection/res.png)
 
 ## Dependencies
 - OpenCV 4
