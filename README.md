@@ -1,5 +1,6 @@
 # Kill Feed Weapon Detection
 This program detects weapons in a series of images, using a collection of templates. It uses the jsoncpp library to output the detected events in JSON format.
+![alt text](https://github.com/[simonmark1998]/[detection]/blob/[master]/result.png?raw=true)
 
 ## Dependencies
 - OpenCV 4
